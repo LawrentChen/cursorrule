@@ -1,0 +1,22 @@
+---
+alwaysApply: true
+---
+
+polars 的日期筛选，结合pandas来进行
+
+例如
+
+```python
+import pandas as pd
+import polars as pl
+
+start_date = '2025-01-01'
+end_date = '20251231'
+
+df = pl.read_csv(...)
+df = df.filter(
+    (pl.col("date") >= pl.lit(pd.to_datetime(start_date))) & 
+    (pl.col("date") <= pl.lit(pd.to_datetime(end_date)))
+)
+
+```

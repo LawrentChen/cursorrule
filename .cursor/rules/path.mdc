@@ -1,0 +1,5 @@
+---
+alwaysApply: true
+---
+
+对于路径管理，不要使用 os 模块，一律使用 Pathlib
