@@ -1,5 +1,6 @@
 ---
-alwaysApply: true
+description: polars 日期筛选写法
+alwaysApply: false
 ---
 
 polars 的日期筛选，结合pandas来进行

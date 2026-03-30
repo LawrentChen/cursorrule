@@ -3,3 +3,5 @@ alwaysApply: true
 ---
 
 按照 black 的格式规范来写代码
+
+如需调用 black，使用 conda 的 base 基础环境
