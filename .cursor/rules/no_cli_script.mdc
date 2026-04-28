@@ -1,0 +1,5 @@
+---
+alwaysApply: true
+---
+
+如无明确要求，python 脚本都不要写成 CLI 执行的形式，默认写成直接 python 运行的形式，参数写在脚本里面
